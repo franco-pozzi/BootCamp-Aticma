@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Concesionaria de autos Auto Market">
+    <meta name="keywords" content="concesionaria, autos, venta, compra, permuta" />
+    <meta name="author" content="Franco Javier Pozzi" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <title>AutoMarket | Home </title>
+</head>
+
+<body>
+    <style>
+        .carousel-item img {
+            object-fit: cover;
+            object-position: center;
+            overflow: hidden;
+            height: 80vh;
+        }
+    </style>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <img src="img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                AutoMarket
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-center" href="#home" data-bs-target=".navbar-collapse.show"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="contacto.html"
+                            data-bs-target=".navbar-collapse.show">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselImg" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="img/interior1.png" class="d-block w-100 opacity-80" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/interior2.png" class="d-block w-100 opacity-80" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/interior3.png" class="d-block w-100 opacity-80" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark bg-gradient text-center pt-3 pb-5 mb-3">
+        <h1 class="text-white pt-1">AUTOMARKET</h1>
+        <h2 class="text-white pt-5">La primer concesionaria de autos tope de gama en Mar del Plata</h2>
+    </div>
+
+    <div id="home" class="container">
+        <div class="row  gy-5 py-3 my-4">
+            <h3 class="text-center">Promociones y Descuentos</h3>
+            <div class="col-lg-4 ">
+                <div class="card h-100">
+                    <div id="lambocarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#lambocarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#lambocarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#lambocarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+
+
+                            <div class="carousel-item active" data-bs-interval="50000">
+                                <img src="img/lambo1.png" class="d-block w-100 " style="height: 30vh;" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="50000">
+                                <img src="img/lambo2.png" class="d-block w-100 " style="height: 30vh" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="50000">
+                                <img src="img/lambo3.png" class="d-block w-100 " style="height: 30vh" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#lambocarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#lambocarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body h-50">
+                        <h5 class="card-title">Lamborgini Huracán EVO</h5>
+                        <p class="card-text">Huracán EVO es la evolución del V10 de mayor éxito de la Casa Lamborghini.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">POTENCIA (CV) : 640 CV </li>
+                        <li class="list-group-item">VELOCIDAD MÁXIMA
+                            >325 km/h</li>
+                        <li class="list-group-item">0-100 km/h
+                            2.9s</li>
+                    </ul>
+                    <div class="card-body d-flex justify-content-evenly">
+                        <a href="https://www.lamborghini.com/es-en/modelos/huracan/huracan-evo" target="_blank"
+                            class="btn-sm btn btn-outline-secondary">Más información </a>
+                        <a href="contacto.html" class="btn-sm btn btn-outline-secondary">Asesoramiento</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 ">
+                <div class="card h-100">
+                    <div id="audicarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#audicarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#audicarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#audicarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="50000">
+                                <img src="img/audi1.png" class="d-block w-100 " style="height: 30vh" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="50000">
+                                <img src="img/audi2.png" class="d-block w-100" style="height: 30vh" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="50000">
+                                <img src="img/audi3.png" class="d-block w-100" style="height: 30vh" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#audicarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#audicarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body h-50">
+                        <h5 class="card-title">Audi TT Coupé</h5>
+                        <p class="card-text">Dos décadas después de su debut, el Audi TT Coupé sigue cautivando por su
+                            característico vocabulario de diseño.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">POTENCIA (CV) : 230 CV </li>
+                        <li class="list-group-item">VELOCIDAD MÁXIMA
+                            : 250 km/h</li>
+                        <li class="list-group-item">0-100 km/h
+                            5.9s</li>
+                    </ul>
+                    <div class="card-body d-flex justify-content-evenly">
+                        <a href="https://www.audi.com.ar/ar/web/es/modelos/tt/tt-coupe.html" target="_blank"
+                            class="btn-sm btn btn-outline-secondary">Más información </a>
+                        <a href="contacto.html" class="btn-sm btn btn-outline-secondary">Asesoramiento</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 ">
+                <div class="card h-100">
+                    <div id="rangecarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#rangecarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#rangecarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#rangecarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="50000">
+                                <img src="img/range1.png" class="d-block w-100" style="height: 30vh" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="50000">
+                                <img src="img/range2.png" class="d-block w-100" style="height: 30vh" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="50000">
+                                <img src="img/range3.png" class="d-block w-100" style="height: 30vh" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#rangecarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#rangecarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body h-50">
+                        <h5 class="card-title">Range Rover Sport</h5>
+                        <p class="card-text">Atlético y de proporciones perfectas, el Range Rover Sport está diseñado
+                            para llamar la atención vaya donde vaya.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">POTENCIA (CV) : 525 CV </li>
+                        <li class="list-group-item">VELOCIDAD MÁXIMA
+                            : 260 km/h</li>
+                        <li class="list-group-item">0-100 km/h
+                            4.7s</li>
+                    </ul>
+                    <div class="card-body d-flex justify-content-evenly">
+                        <a href="https://www.landroverargentina.com/vehicles-range-rover-sport" target="_blank"
+                            class="btn-sm btn btn-outline-secondary">Más información </a>
+                        <a href="contacto.html" class="btn-sm btn btn-outline-secondary">Asesoramiento</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="py-3 mt-4 bg-dark bg-gradient">
+            <ul class="nav justify-content-center pt-3 mb-3 ">
+                <li class="nav-item">
+                    <p class="nav-link px-2 text-white">Dirección : Av. Independencia 1099</p>
+                </li>
+                <li class="nav-item">
+                    <p class="nav-link px-2 text-white">Teléfono : 223-5154717</p>
+                </li>
+                <li class="nav-item">
+                    <p class="nav-link px-2 text-white">Email: contacto@automarket.com.ar</p>
+                </li>
+            </ul>
+            <p class="text-center mb-1 text-white">AutoMarket © 2021 </p>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
